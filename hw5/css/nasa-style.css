@@ -1,53 +1,45 @@
  body {
-    width: 850px;
-    margin: 0 auto;
-    font-family: sans-serif;
-}
-
-header {
-    background-image:url(/hw5/img/nasa-background.jpg);
-    height: 450px;
-    width: 850px;
-}
-
-h1 {
-    color: white;
-    font-size: 80px;
-    padding-top: 180px;
-    text-align: center;
-}
-
-
-section {
-    background-color: rgb(230,230,230);
-    height: 324px;
-    width: 100%;
-    float: left;
-    margin: 20px 0;
-}
-
-article {
-    padding: 19px;
-    float: left;
-}
-
-ul {
-    list-style-type: none;
-}
-
-li {
-    font-size: .9em;
-    font-weight: 100px;
-    color: rgb(118,118,118);
-    padding: 5px;
-}
-
-form input[type="submit"]{
-    color: white;
-    background: rgb(84,84,84);
-    margin-top: 10px;
-    padding: 5px 20px;
-    font-size: 15px;
-    border: none;
-    cursor: pointer;
-}
+     width: 850px;
+     margin: 0 auto;
+     font-family: sans-serif;
+ }
+ header {
+     background-image: url(/hw5/img/nasa-background.jpg);
+     height: 450px;
+     width: 850px;
+ }
+ h1 {
+     color: white;
+     font-size: 80px;
+     padding-top: 180px;
+     text-align: center;
+ }
+ section {
+     background-color: rgb(230, 230, 230);
+     height: 324px;
+     width: 100%;
+     float: left;
+     margin: 20px 0;
+ }
+ article {
+     padding: 19px;
+     float: left;
+ }
+ ul {
+     list-style-type: none;
+ }
+ li {
+     font-size: .9em;
+     font-weight: 100px;
+     color: rgb(118, 118, 118);
+     padding: 5px;
+ }
+ form input[type="submit"] {
+     color: white;
+     background: rgb(84, 84, 84);
+     margin-top: 10px;
+     padding: 5px 20px;
+     font-size: 15px;
+     border: none;
+     cursor: pointer;
+ }
