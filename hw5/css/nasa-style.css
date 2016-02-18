@@ -6,7 +6,6 @@
  header {
      background-image: url(/hw5/img/nasa-background.jpg);
      height: 450px;
-     width: 850px;
  }
  h1 {
      color: white;
@@ -17,12 +16,10 @@
  section {
      background-color: rgb(230, 230, 230);
      height: 324px;
-     width: 100%;
-     float: left;
      margin: 20px 0;
  }
  article {
-     padding: 19px;
+     padding: 12px;
      float: left;
  }
  ul {
@@ -30,7 +27,6 @@
  }
  li {
      font-size: .9em;
-     font-weight: 100px;
      color: rgb(118, 118, 118);
      padding: 5px;
  }
