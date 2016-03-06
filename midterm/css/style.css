@@ -1,0 +1,191 @@
+body {
+    font-family: 'Antic Slab', serif;
+    color: #fff;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+h3 {
+    font-family: 'Istok Web', sans-serif;
+    color: #ff6e42;
+}
+header {
+    background: rgb(73, 73, 75);
+    height: 78px;
+}
+header h1 {
+    color: #ff6e42;
+    font-family: 'Istok Web', sans-serif;
+    padding: 14px;
+    float: left;
+    text-transform: uppercase;
+    font-size: 2.5em;
+}
+header nav {
+    padding: 25px;
+    float: right;
+}
+header a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 10px;
+    font-size: .9em;
+}
+header a:hover {
+    color: #ff6e42;
+}
+#hero {
+    margin-top: 10px;
+    text-align: center;
+    color: #fff;
+    height: 600px;
+    background: linear-gradient(to bottom, rgba(10, 10, 10, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), url('../img/run.gif') no-repeat center;
+    background-size: 110% auto;
+}
+#hero h3 {
+    padding-top: 200px;
+    font-size: 80px;
+    text-shadow: 2px 4px #000;
+}
+#hero p {
+    font-size: 1em;
+    font-style: italic;
+    text-shadow: 1px 2px #333;
+}
+#hero div {
+    margin-left: 450px;
+    padding-top: 25px;
+}
+#hero span {
+    margin-left: 75px;
+}
+#hero a {
+    color: #fff;
+    text-decoration: none;
+}
+#about {
+    background: #49494B;
+    height: 200px;
+    margin-top: 10px;
+}
+#about img {
+    background: blue;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+#about article {
+    padding-top: 25px;
+    width: 800px;
+    float: left;
+    padding-left: px;
+}
+#about h3 {
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 2em;
+    text-align: right;
+}
+#about p {
+    padding-left: 150px;
+    color: #fff;
+    width: 650px;
+    text-align: right;
+}
+#shoes {
+    margin-top: 10px;
+    background: #49494B;
+    height: 250px;
+}
+#shoes div {
+    float: left;
+    width: 200px;
+    margin: 10px 44px;
+    text-align: center;
+}
+#shoes div:nth-child(2) img {
+    transform: scaleX(-1);
+}
+#shoes img {
+    background: blue;
+    width: 200px;
+    height: 100px;
+}
+#shoes h3 {
+    font-size: 1.5em;
+}
+#shoes p {
+    font-size: .9em;
+    color: #fff;
+    text-align: left;
+}
+#testimonials {
+    margin-top: 10px;
+    background: #49494B;
+    height: 400px;
+    margin-bottom: 10px;
+}
+#testimonials div {
+    padding-top: 10px;
+    width: 300px;
+    float: left;
+    margin: 0px 130px;
+}
+#testimonials div:nth-child(1) {
+    color: #ff6e42;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 2em;
+    width: 857px;
+    text-align: center;
+}
+#testimonials img {
+    background: blue;
+    width: 300px;
+    height: 200px;
+}
+#testimonials p {
+    font-style: italic;
+}
+#testimonials span {
+    float: right;
+    text-align: right;
+}
+#buy {
+    background: #49494B;
+    height: 200px;
+}
+#buy p {
+    padding-top: 25px;
+    font-size: 1.5em;
+    margin: 10px 25px;
+    text-align: center;
+}
+#buy div {
+    margin-left: 450px;
+    padding-top: 25px;
+}
+#buy div span {
+    margin-left: 25px;
+}
+.btn {
+    float: left;
+    background: #91A05D;
+    color: white;
+    text-decoration: none;
+    border: solid;
+    border-color: white;
+    font-size: 1em;
+    padding: 9px 25px;
+    text-align: center;
+    cursor: pointer;
+}
+.btn:hover {
+    background: #ff6e42;
+}
+footer {
+    color: #49494B;
+    text-align: right;
+    width: 80%;
+    margin: 0 auto;
+}
