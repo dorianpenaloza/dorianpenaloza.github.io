@@ -6,6 +6,9 @@ body {
     width: 80%;
     margin: 0 auto;
 }
+section {
+    border-radius: 10px;
+}
 h3 {
     font-family: 'Istok Web', sans-serif;
     color: #ff6e42;
@@ -13,6 +16,8 @@ h3 {
 header {
     background: rgb(73, 73, 75);
     height: 78px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 header h1 {
     color: #ff6e42;
@@ -74,6 +79,8 @@ header a:hover {
     width: 200px;
     height: 200px;
     float: left;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 #about article {
     padding-top: 25px;
@@ -101,7 +108,7 @@ header a:hover {
 #shoes div {
     float: left;
     width: 200px;
-    margin: 10px 44px;
+    margin: 20px 44px;
     text-align: center;
 }
 #shoes div:nth-child(2) img {
@@ -187,5 +194,6 @@ footer {
     color: #49494B;
     text-align: right;
     width: 80%;
+    padding: 15px 0;
     margin: 0 auto;
 }
