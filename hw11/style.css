@@ -1,0 +1,32 @@
+header {
+    background: url('img/sub_header_home.jpg') no-repeat center;
+    height: 560px;
+    color: white;
+    text-align: center;
+}
+header h2 {
+    padding-top: 216px;
+    font-size: 4em;
+    font-weight: 100;
+    text-align: center;
+}
+header p {
+    font-family: helvetica;
+    font-weight: 100;
+}
+article {
+    width: 355px;
+    float: left;
+    text-align: center;
+    padding-top: 25px;
+}
+@media screen and (min-width:768px) and (max-width: 991px) {
+    article {
+        margin: auto 55px;
+    }
+}
+@media screen and (max-width: 767px) {
+    article {
+        margin: auto 190px;
+    }
+}
