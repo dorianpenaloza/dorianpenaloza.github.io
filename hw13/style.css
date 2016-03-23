@@ -1,0 +1,37 @@
+header {
+    background: url('img/sub_header_home.jpg') no-repeat center;
+    height: 560px;
+    color: white;
+    text-align: center;
+}
+header h2 {
+    padding-top: 216px;
+    font-size: 4em;
+    font-weight: 100;
+    text-align: center;
+}
+header p {
+    font-family: helvetica;
+    font-weight: 100;
+}
+article {
+    width: 355px;
+    float: left;
+    text-align: center;
+    padding-top: 25px;
+}
+
+/*Laptop(md)*/
+@media (min-width: 992px) {
+    
+}
+
+/*Tablet(sm)*/
+@media (min-width: 769px) and (max-width: 991px) {
+    
+}
+
+/*Phone(xs)*/
+@media (max-width: 768px) {
+    
+}
