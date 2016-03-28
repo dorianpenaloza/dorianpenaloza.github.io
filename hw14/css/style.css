@@ -1,0 +1,82 @@
+main {
+    margin: 5%;
+}
+main h4 {
+    font-size: 1.2em;
+    font-family: helvetica;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+/*LeftSection*/
+section article img {
+    width: 100%;
+}
+section article h3 {
+    font-size: 2.3em;
+    font-family: helvetica;
+    font-weight: 400;
+    margin-top: 15px;
+}
+section article p {
+    font-size: 1.4em;
+    font-family: helvetica;
+    font-weight: 300;
+    margin-top: 15px;
+}
+#btn {
+    font-family: helvetica;
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 0px;
+    margin-top: 15px;
+}
+
+/*Aside*/
+aside h3 {
+    font-size: 1.2em;
+    font-family: helvetica;
+    font-weight: 600;
+}
+aside p {
+    margin-bottom: 15px;
+}
+aside p a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: .8em;
+    font-family: helvetica;
+}
+/*Footer*/
+footer {
+    background: #5D5D5D;
+    margin-top: 25px;
+}
+footer section article {
+}
+footer section article div {
+    width: 120px;
+    margin: 25px;
+}
+footer section article h3 {
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 600;
+} 
+footer a {
+    color: #fff;
+    font-weight: 100;
+    font-size: .7em;
+    text-decoration: none;
+    cursor: pointer;
+}
+footer i {
+    color: #fff;
+}
