@@ -1,0 +1,164 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar {
+    background-color: rgba(255, 255, 255, 0);
+}
+.navbar .navbar-brand {
+    color: #fff;
+}
+.nav.navbar-nav li a {
+    color: #fff;
+}
+.overlay:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #292929;
+    opacity: 0.3;
+}
+#hero {
+    background: url('../img/wine-bg.jpg') no-repeat center fixed;
+    text-align: center;
+    color: #fff;
+    height: 100vh;
+}
+#hero img {
+    max-width: 100%;
+    margin-top: 45px;
+    opacity: 0.75;
+}
+#hero h2 {
+    padding-top: 250px;
+    margin-bottom: 50px;
+    font-size: 80px;
+    color: #fff;
+}
+#hero p i {
+    font-style: italic;
+}
+/* About Section */
+#about {
+    height: 50vw;
+    max-height: 600px;
+}
+#about_article {
+    text-align: center;
+}
+#about_article h3 {
+    color: lightgray;
+    font-size: .9em;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+#about_article h4 {
+    font-family: serif;
+    font-weight: 900;
+    font-size: 1.5em;
+    font-style: italic;
+    padding-bottom: 50px;
+    width: 400px;
+    margin: 0 auto;
+}
+#about_article p {
+    width: 400px;
+    margin: 0 auto;
+    font-size: .8em;
+}
+#about_article img {
+    padding: 25px;
+    width: 250px;
+}
+#about_img{
+    background: url('../img/wine16.jpg') no-repeat center;
+    background-size:100%;
+    height: 100%;
+}
+
+/* Produce Section */
+#produce {
+    background: url('../img/wine13.jpg') fixed;
+    float: left;
+    height: 50vw;
+    width: 100%;
+}
+#produce h4 {
+    color: white;
+    font-family: serif;
+    font-weight: 900;
+    font-size: 1.5em;
+    font-style: italic;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+#produce p {
+    color: white;
+    width: 800px;
+    margin: 0 auto;
+    font-size: .8em;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+/* Shop Section */
+#shop div {
+    float: left;
+    width: 480px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+#shop h4 {
+    font-family: serif;
+    font-weight: 900;
+    font-size: 1.5em;
+    font-style: italic;
+    padding-bottom: 50px;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+#shop p {
+    width: 400px;
+    margin: 0 auto;
+    font-size: .9em;
+    text-align: center;
+    padding-bottom: 15px;
+}
+#shop img {
+    width: 150px;
+    height: 350px;
+}
+.btn {
+    background: #91A05D;
+    color: white;
+    text-decoration: none;
+    border: solid;
+    border-color: white;
+    font-size: 1em;
+    padding: 9px 25px;
+    text-align: center;
+    cursor: pointer;
+}
+@media screen and (min-width: 992px) {
+    #about_img {
+        position: absolute;
+        right: 0;
+        z-index: -1;
+    }
+    #about_article {
+        position: absolute;
+        left: 0;
+    }
+}
+@media screen and (max-width: 992px) {
+    #about_article {
+        margin-top: -100px;
+        padding-bottom: 50px;
+    }
+}
