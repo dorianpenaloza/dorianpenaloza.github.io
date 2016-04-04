@@ -1,0 +1,80 @@
+body {
+    background: #F5F5F5;
+}
+main {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 90%;
+}
+section:nth-child(2) {
+    margin-top: 10px;
+}
+article {
+    height: 586px;
+}
+h3 {
+    font-weight: 100;
+    font-family: helvetica;
+}
+p {
+    font-weight: 00;
+}
+img {
+    width: 100%;
+    height: 278px;
+    max-height: 100%;
+}
+.yellow-bg {
+    background: #F4ED47;
+}
+.grey-bg {
+    background: #D7D7D7;
+}
+.light-grey-bg {
+    background: #EEEEEE;
+}
+.large-box {
+    height: 578px;
+}
+.small-box {
+    height: 278px;
+}
+.push-bottom {
+    position: relative;
+    bottom: -20px;
+}
+.small-box-text {
+    margin-top: 20px; 
+    padding: 59px 80px;
+}
+.large-box-text {
+    padding: 0px 0px;
+    padding-bottom: 150px;
+    color: #000;
+    font-weight: 200;
+    text-shadow: none;
+    text-align: left;
+    line-height: 35px;
+}
+.fa {
+    font-size: 30px;
+}
+.carousel-indicators {
+    text-align: left;
+}
+.carousel-indicators li {
+    border: 1px solid #000;
+    background-color: #000;
+}
+.carousel-indicators .active {
+    background-color: transparent;
+    border: 1px solid #000;
+    height: 12px;
+    width: 12px;
+}
+
+@media screen and (width: 600px) {
+    
+    
+}
+
