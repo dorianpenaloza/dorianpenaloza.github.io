@@ -78,6 +78,14 @@ h3 {
     color: #fff;
     text-decoration: none;
 }
+#contact {
+    padding-top: 10px;
+    color: #fff;
+    height: 550px;
+    background: #49494B;
+    margin-top: 10px;
+    text-align: center;
+}
 #about {
     background: #49494B;
     margin-top: 10px;
